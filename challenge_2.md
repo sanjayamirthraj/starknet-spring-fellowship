@@ -32,10 +32,12 @@ Jediswap is a very nice implemention to interact with because all the data that 
 #### Exercise 1.1
 
 Using events on the factory, find the first ever pool created on Jediswap. What are the tokens supported by this pool ?
+_**(Event 10765_34_4: Pair creation: Token 0: DAI Token V0 Token 1: ETH )**_
 
 #### Exercise 1.2
 
 Recall the swap function for Uniswap V2, what parametrises it ? Can you find these values inside the events emitted by the pools ?
+ _**(Parameterized by amount0Out, amount1Out, to address, and calldata)**_
 
 #### Exercice 1.3(Optionnal)
 
